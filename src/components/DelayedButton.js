@@ -1,6 +1,6 @@
 import React from 'react' ;
 
-export default class CoordinatesButton extends React.Component {
+export default class DelayedButton extends React.Component {
 
   render() {
     return (
