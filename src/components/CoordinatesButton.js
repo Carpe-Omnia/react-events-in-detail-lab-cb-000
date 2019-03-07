@@ -1,12 +1,12 @@
 import React from 'react' ;
 
 export default class CoordinatesButton extends React.Component {
-  onReceiveCoordinates = this.props.onReceiveCoordinates ;
+//  onReceiveCoordinates = this.props.onReceiveCoordinates ;
   doFunction = (event) => {
     var x = event.clientX ;
     var y = event.clientY ;
     var ray = [x, y] ;
-    onReceiveCoordinates(ray) ;
+    this.props.onReceiveCoordinates(ray) ;
   }
 
   render() {
